@@ -2,15 +2,6 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: '
-  	<div class="navbar is-white">
-  		<div class="navbar-band">
-  			<a class="navbar-item">
-  				My logo goes here!
-  			</a>
-		</div>
-	</div>
-  '
   templateUrl: './app.component.html',
   styleUrls: [ './app.component.css' ]
 })

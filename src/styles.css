@@ -137,6 +137,23 @@ app-top-bar h1 {
   background-color: #EEEEEE;
 }
 
+#logo {
+	padding-top: 20px;
+	margin-bottom: 20px;
+	width: 5%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-transition: width 0.5s ease-out;
+    -moz-transition: width 0.5s ease-out;
+    -o-transition: width 0.5s ease-out;
+    transition: width 0.5s ease-out;
+}
+
+#logo:hover{
+	width: 7%;
+}
+
 
 /*
 Copyright Google LLC. All Rights Reserved.
